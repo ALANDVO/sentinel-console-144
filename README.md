@@ -1,2 +1,6 @@
-# sentinel-console-144
-Alan Vo | Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
+# sentinel-console-144 — Alan Vo
+
+> Work in progress. This checkpoint may be incomplete or fail tests. See PLAN.md and STATUS.md before use.
+
+
+Maintainer: Alan Vo <alanvo@gmail.com>

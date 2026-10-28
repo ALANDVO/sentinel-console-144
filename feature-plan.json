@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "current_feature": "skeleton",
+  "features": [
+    {
+      "id": "skeleton",
+      "title": "FastAPI + React skeleton with health check",
+      "status": "in_progress",
+      "acceptance": [
+        "FastAPI server starts on port 8000",
+        "React dev server starts on port 3000",
+        "GET /api/health returns 200 with {status: ok}",
+        "Frontend loads and displays basic page"
+      ],
+      "implementation": [],
+      "tests": []
+    },
+    {
+      "id": "anti-slop-rules",
+      "title": "Anti-AI-slop design rule engine",
+      "status": "planned",
+      "acceptance": [
+        "Rule definitions loaded from config",
+        "CLI/API to lint design tokens",
+        "Ban list enforcement for sloppy patterns"
+      ],
+      "implementation": [],
+      "tests": []
+    },
+    {
+      "id": "skill-package",
+      "title": "Claude Code skill package (skills/hallmark/)",
+      "status": "planned",
+      "acceptance": [
+        "SKILL.md with absolute GitHub URLs",
+        "References copied into skills/hallmark/references/",
+        "npx skills add works without broken links"
+      ],
+      "implementation": [],
+      "tests": []
+    },
+    {
+      "id": "accessibility-fixes",
+      "title": "Accessibility fixes for example cards",
+      "status": "planned",
+      "acceptance": [
+        "Example cards expose link role to AT",
+        "Cards appear in links rotor"
+      ],
+      "implementation": [],
+      "tests": []
+    },
+    {
+      "id": "reduced-motion",
+      "title": "Reduced motion support for demo videos",
+      "status": "planned",
+      "acceptance": [
+        "Videos pause when prefers-reduced-motion: reduce",
+        "Poster images shown as fallback"
+      ],
+      "implementation": [],
+      "tests": []
+    }
+  ]
+}
