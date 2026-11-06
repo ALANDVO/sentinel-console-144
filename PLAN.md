@@ -10,13 +10,17 @@ skeleton
 
 ### skeleton — FastAPI + React skeleton with health check
 
-Status: in_progress
+Status: done
 
 Acceptance:
 - FastAPI server starts on port 8000
 - React dev server starts on port 3000
 - GET /api/health returns 200 with {status: ok}
 - Frontend loads and displays basic page
+
+Implementation: `backend/main.py`, `frontend/src/App.jsx`, `frontend/src/App.css`, `frontend/src/index.css`, `frontend/index.html`
+
+Tests: `Manual verification: both servers start, health endpoint returns 200, frontend renders`
 
 ### anti-slop-rules — Anti-AI-slop design rule engine
 

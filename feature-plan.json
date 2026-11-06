@@ -5,15 +5,23 @@
     {
       "id": "skeleton",
       "title": "FastAPI + React skeleton with health check",
-      "status": "in_progress",
+      "status": "done",
       "acceptance": [
         "FastAPI server starts on port 8000",
         "React dev server starts on port 3000",
         "GET /api/health returns 200 with {status: ok}",
         "Frontend loads and displays basic page"
       ],
-      "implementation": [],
-      "tests": []
+      "implementation": [
+        "backend/main.py",
+        "frontend/src/App.jsx",
+        "frontend/src/App.css",
+        "frontend/src/index.css",
+        "frontend/index.html"
+      ],
+      "tests": [
+        "Manual verification: both servers start, health endpoint returns 200, frontend renders"
+      ]
     },
     {
       "id": "anti-slop-rules",
