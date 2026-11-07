@@ -17,4 +17,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
-Alan Vo · [alanvo.net](https://alanvo.net)
+Alan Vo · [alanvo.net](https://alanvo.net) · [X: @alanvoasi](https://x.com/alanvoasi)
