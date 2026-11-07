@@ -84,3 +84,7 @@ See [PLAN.md](PLAN.md) for the roadmap and [STATUS.md](STATUS.md) for current ch
 MIT — see [LICENSE](LICENSE) for details.
 
 Maintainer: Alan Vo <alanvo@gmail.com>
+
+---
+
+Alan Vo · [alanvo.net](https://alanvo.net)

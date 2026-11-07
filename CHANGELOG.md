@@ -13,3 +13,7 @@ Partial code published for continued development. Known issues: STATUS.md.
 - React + Vite frontend with Sentinel Console landing page
 - CORS configuration for frontend-backend communication
 - Project documentation (README, PLAN, STATUS, feature-plan.json)
+
+---
+
+Alan Vo · [alanvo.net](https://alanvo.net)

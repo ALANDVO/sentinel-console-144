@@ -56,3 +56,6 @@ Acceptance:
 - Videos pause when prefers-reduced-motion: reduce
 - Poster images shown as fallback
 
+---
+
+Alan Vo · [alanvo.net](https://alanvo.net)
