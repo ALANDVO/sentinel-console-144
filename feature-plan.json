@@ -1,6 +1,7 @@
+
 {
   "schema_version": 1,
-  "current_feature": "skeleton",
+  "current_feature": "anti-slop-rules",
   "features": [
     {
       "id": "skeleton",
@@ -26,14 +27,21 @@
     {
       "id": "anti-slop-rules",
       "title": "Anti-AI-slop design rule engine",
-      "status": "planned",
+      "status": "done",
       "acceptance": [
         "Rule definitions loaded from config",
         "CLI/API to lint design tokens",
         "Ban list enforcement for sloppy patterns"
       ],
-      "implementation": [],
-      "tests": []
+      "implementation": [
+        "backend/config/rules.json",
+        "backend/rules/engine.py",
+        "backend/api/lint.py",
+        "backend/main.py"
+      ],
+      "tests": [
+        "Manual verification: python -c 'from rules.engine import get_engine; e = get_engine(); print(e.lint_css(\"color: #ff0000; margin: 5px;\"))'"
+      ]
     },
     {
       "id": "skill-package",
