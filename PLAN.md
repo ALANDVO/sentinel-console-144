@@ -4,7 +4,7 @@ Each round completes one feature or repair. Future items are planned, not implem
 
 ## Current round
 
-skeleton
+anti-slop-rules
 
 ## Roadmap
 
@@ -24,12 +24,16 @@ Tests: `Manual verification: both servers start, health endpoint returns 200, fr
 
 ### anti-slop-rules — Anti-AI-slop design rule engine
 
-Status: planned
+Status: done
 
 Acceptance:
 - Rule definitions loaded from config
 - CLI/API to lint design tokens
 - Ban list enforcement for sloppy patterns
+
+Implementation: `backend/config/rules.json`, `backend/rules/engine.py`, `backend/api/lint.py`, `backend/main.py`
+
+Tests: `Manual verification: python -c 'from rules.engine import get_engine; e = get_engine(); print(e.lint_css("color: #ff0000; margin: 5px;"))'`
 
 ### skill-package — Claude Code skill package (skills/hallmark/)
 

@@ -1,9 +1,12 @@
+
 """
 Sentinel Console - Anti-AI-slop design skill backend.
 FastAPI server with health check endpoint.
 """
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+
+from api.lint import router as lint_router
 
 app = FastAPI(
     title="Sentinel Console",
@@ -18,6 +21,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(lint_router)
 
 
 @app.get("/api/health")
