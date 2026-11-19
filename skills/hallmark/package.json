@@ -1,0 +1,26 @@
+{
+  "name": "hallmark",
+  "version": "1.0.0",
+  "description": "Sentinel Console - Anti-AI-slop design skill for Claude Code",
+  "author": "Alan Vo <alanvo@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ALANDVO/sentinel-console-144"
+  },
+  "keywords": [
+    "claude-code",
+    "skill",
+    "design",
+    "rules",
+    "lint",
+    "anti-ai-slop"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
