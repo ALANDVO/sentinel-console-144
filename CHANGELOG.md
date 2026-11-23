@@ -1,14 +1,22 @@
 # Changelog
 
-## 1.3.0 — work-in-progress checkpoint
+## 1.4.0 — work-in-progress checkpoint
 
 Partial code published for continued development. Known issues: STATUS.md.
+
+## 1.3.0 — work-in-progress checkpoint
+
+### Added
+- Claude Code skill package: `skills/hallmark/SKILL.md` with absolute GitHub URLs
+- Skill references: `skills/hallmark/references/{design-tokens.md, rules.json, README.md}`
+- Skill package tests: `backend/tests/test_skill_package.py` (5 passing tests)
+
+### Fixed
+- Relative `../` paths in SKILL.md replaced with absolute GitHub URLs, fixing broken links after `npx skills add`
 
 ## 1.2.0 — work-in-progress checkpoint
 
 Partial code published for continued development. Known issues: STATUS.md.
-
-# Changelog
 
 ## 1.1.0 — work-in-progress checkpoint
 

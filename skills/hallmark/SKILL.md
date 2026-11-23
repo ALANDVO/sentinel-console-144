@@ -29,12 +29,12 @@ Installation: https://github.com/ALANDVO/sentinel-console-144
 
 ## References
 
-- [Design Tokens Documentation](https://github.com/ALANDVO/sentinel-console-144/blob/main/docs/design-tokens.md)
+- [Design Tokens Documentation](https://github.com/ALANDVO/sentinel-console-144/blob/main/skills/hallmark/references/design-tokens.md)
 - [Rule Configuration](https://github.com/ALANDVO/sentinel-console-144/blob/main/backend/config/rules.json)
 - [API Documentation](https://github.com/ALANDVO/sentinel-console-144/blob/main/README.md)
 
 ## Contact
+
 Alan Vo <alanvo@gmail.com>
 https://alanvo.net
 https://x.com/alanvoasi
-
