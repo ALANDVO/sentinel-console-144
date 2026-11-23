@@ -1,0 +1,14 @@
+{
+  "colors": {
+    "allowlist": ["#000000", "#FFFFFF", "#111111"],
+    "ban": ["#ff0000", "#f00"]
+  },
+  "radii": {
+    "allowlist": ["4px", "8px", "12px"],
+    "ban": ["0px", "1px"]
+  },
+  "lengths": {
+    "ban_units": ["px"],
+    "allow_units": ["rem", "em", "%"]
+  }
+}

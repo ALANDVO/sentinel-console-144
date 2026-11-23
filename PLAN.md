@@ -4,7 +4,7 @@ Each round completes one feature or repair. Future items are planned, not implem
 
 ## Current round
 
-anti-slop-rules
+skill-package
 
 ## Roadmap
 
@@ -37,12 +37,16 @@ Tests: `Manual verification: python -c 'from rules.engine import get_engine; e =
 
 ### skill-package — Claude Code skill package (skills/hallmark/)
 
-Status: planned
+Status: done
 
 Acceptance:
 - SKILL.md with absolute GitHub URLs
 - References copied into skills/hallmark/references/
 - npx skills add works without broken links
+
+Implementation: `skills/hallmark/SKILL.md`, `skills/hallmark/references/design-tokens.md`, `skills/hallmark/references/rules.json`, `skills/hallmark/references/README.md`
+
+Tests: `backend/tests/test_skill_package.py`
 
 ### accessibility-fixes — Accessibility fixes for example cards
 
