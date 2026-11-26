@@ -40,35 +40,35 @@ function App() {
             </p>
 
             <div className="features-grid">
-              <article className="feature-card">
+              <a href="examples/hum-07/" className="feature-card" target="_blank" rel="noopener">
                 <h3>Token Linting</h3>
                 <p>Validates design tokens against a curated allowlist. No magic numbers, no arbitrary hex values — only approved spacing, sizing, and color scales.</p>
-              </article>
+              </a>
 
-              <article className="feature-card">
+              <a href="examples/custom-04/" className="feature-card" target="_blank" rel="noopener">
                 <h3>Ban List Enforcement</h3>
                 <p>Hard bans on sloppy patterns: untyped colors, inconsistent radii, manual px values where tokens should be used, and other AI tells.</p>
-              </article>
+              </a>
 
-              <article className="feature-card">
+              <a href="examples/hum-07/" className="feature-card" target="_blank" rel="noopener">
                 <h3>Claude Code Skill</h3>
                 <p>Install as a skill with <code>npx skills add</code>. Runs in your editor context — no separate tooling, no context switching.</p>
-              </article>
+              </a>
 
-              <article className="feature-card">
-                <h3>Cursor &amp; Codex Ready</h3>
+              <a href="examples/custom-04/" className="feature-card" target="_blank" rel="noopener">
+                <h3>Cursor & Codex Ready</h3>
                 <p>Works wherever you write code. Same rule engine, same standards, consistent output across AI assistants.</p>
-              </article>
+              </a>
 
-              <article className="feature-card">
+              <a href="examples/hum-07/" className="feature-card" target="_blank" rel="noopener">
                 <h3>Extensible Rules</h3>
                 <p>Add project-specific rules via config. Your design system, your constraints — encoded once, enforced everywhere.</p>
-              </article>
+              </a>
 
-              <article className="feature-card">
+              <a href="examples/custom-04/" className="feature-card" target="_blank" rel="noopener">
                 <h3>CI Integration</h3>
                 <p>Fail builds on slop. Add <code>sentinel lint</code> to your pipeline and catch regressions before merge.</p>
-              </article>
+              </a>
             </div>
           </div>
         </section>
